@@ -27,7 +27,7 @@ jobs:
           channel: stable
 
       - name: Create Android project
-        run: flutter create . --platforms=android
+        run: flutter create . --project-name riff_call --platforms=android
 
       - name: Install dependencies
         run: flutter pub get
